@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Captin-gym-site/static/css/main.bc7e7629.css",
-    "main.js": "/Captin-gym-site/static/js/main.1b545688.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Captin-gym-site/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/Captin-gym-site/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Captin-gym-site/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/home.jpg": "/Captin-gym-site/static/media/home.5b76402d45764c8b6e60.jpg",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Captin-gym-site/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/home2.jpg": "/Captin-gym-site/static/media/home2.76c678ca5dca206c521a.jpg",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Captin-gym-site/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/Captin-gym-site/index.html",
-    "main.bc7e7629.css.map": "/Captin-gym-site/static/css/main.bc7e7629.css.map",
-    "main.1b545688.js.map": "/Captin-gym-site/static/js/main.1b545688.js.map"
+    "main.css": "/coach-gym-site/static/css/main.eb01e396.css",
+    "main.js": "/coach-gym-site/static/js/main.e9068cf5.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/coach-gym-site/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/coach-gym-site/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/coach-gym-site/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/home.jpg": "/coach-gym-site/static/media/home.5b76402d45764c8b6e60.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/coach-gym-site/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/home2.jpg": "/coach-gym-site/static/media/home2.76c678ca5dca206c521a.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/coach-gym-site/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/coach-gym-site/index.html",
+    "main.eb01e396.css.map": "/coach-gym-site/static/css/main.eb01e396.css.map",
+    "main.e9068cf5.js.map": "/coach-gym-site/static/js/main.e9068cf5.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc7e7629.css",
-    "static/js/main.1b545688.js"
+    "static/css/main.eb01e396.css",
+    "static/js/main.e9068cf5.js"
   ]
 }

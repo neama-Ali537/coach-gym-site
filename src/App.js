@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom"; // استخدمي createHashRouter
 import "font-awesome/css/font-awesome.min.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -11,13 +11,12 @@ import Home from "./Componants/Home/Home";
 import About from "./Componants/About/About";
 import Layout from "./Componants/Layout/Layout";
 import MealPlan from "./Componants/MealPlan/MealPlan";
-import AuthProvider from "./Componants/AuthProvider/AuthProvider";
 import FeedBack from "./Componants/FeedBack/FeedBack";
 import AdminPage from "./Componants/AdminPage/AdminPage";
 import RenewPage from "./Componants/RenewPage/RenewPage";
 import ClientPage from "./Componants/ClientPage/ClientPage";
 
-let routers = createBrowserRouter([
+let routers = createHashRouter([
   {
     path: "/",
     element: <Layout />,
@@ -33,15 +32,10 @@ let routers = createBrowserRouter([
     ],
   },
 ]);
+
 function App() {
-  return (
-    <>
-    <AuthProvider>
-        <RouterProvider router={routers} />
-    </AuthProvider>
-    
-    </>
-  );
+  return <RouterProvider router={routers} />;
 }
 
 export default App;
+
