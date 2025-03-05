@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import AuthProvider from "./Componants/AuthProvider/AuthProvider"; // تأكدي من استيراد AuthProvider
+import AuthProvider from "./Componants/AuthProvider/AuthProvider";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
