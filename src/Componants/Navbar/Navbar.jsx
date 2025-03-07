@@ -19,7 +19,8 @@ export default function Navbar() {
       <div className="container-fluid d-flex justify-content-between align-items-center">
         {/* الجزء الخاص باللوجو */}
         <h2 className="line d-flex align-items-center">
-          <img className="logo m-1" src="/Assets/logo2.png" alt="Logo" />
+        <img className="logo m-1" src={`${process.env.PUBLIC_URL}/Assets/logo2.png`} alt="Logo" />
+
           C.Hagar Alaa
         </h2>
 

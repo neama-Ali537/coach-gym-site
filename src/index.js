@@ -1,15 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import AuthProvider from "./Componants/AuthProvider/AuthProvider";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "font-awesome/css/font-awesome.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import "./App.css"
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import AuthProvider from "./Componants/AuthProvider/AuthProvider";
+import { RouterProvider } from "react-router-dom";
+import routers from "./Componants/Routers/Routers";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <AuthProvider>
-      <App />
+    <RouterProvider router={routers} />
     </AuthProvider>
   </React.StrictMode>
 );
-
