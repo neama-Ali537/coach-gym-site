@@ -1,4 +1,10 @@
-{
+{ 
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
+  },
   "name": "c-hagar-alaa",
   "homepage": "https://neama-ali537.github.io/coach-gym-site",
   "version": "0.1.0",
