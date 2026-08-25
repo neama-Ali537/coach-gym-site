@@ -1,8 +1,8 @@
-import React, {  createContext, useEffect, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 
 export const AuthContext = createContext();
 
-export default function AuthProvider({children}) {
+export default function AuthProvider({ children }) {
   const correctPass = "neama215ali";
   const [isAuthticated, setIsAuthticated] = useState(false);
   useEffect(() => {
@@ -15,14 +15,15 @@ export default function AuthProvider({children}) {
       sessionStorage.setItem("auth", password);
       setIsAuthticated(true);
       return true;
-    }
-    {
+    } else {
       return false;
     }
   };
-  return <>
-  <AuthContext.Provider  value={{isAuthticated , login}}>
-  {children}
-  </AuthContext.Provider>
-  </>
+  return (
+    <>
+      <AuthContext.Provider value={{ isAuthticated, login }}>
+        {children}
+      </AuthContext.Provider>
+    </>
+  );
 }

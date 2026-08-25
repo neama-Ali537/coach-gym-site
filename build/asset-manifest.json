@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coach-gym-site/static/css/main.eb01e396.css",
-    "main.js": "/coach-gym-site/static/js/main.dc622154.js",
+    "main.js": "/coach-gym-site/static/js/main.744a9d1c.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/coach-gym-site/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/coach-gym-site/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/coach-gym-site/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -11,10 +11,10 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/coach-gym-site/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/coach-gym-site/index.html",
     "main.eb01e396.css.map": "/coach-gym-site/static/css/main.eb01e396.css.map",
-    "main.dc622154.js.map": "/coach-gym-site/static/js/main.dc622154.js.map"
+    "main.744a9d1c.js.map": "/coach-gym-site/static/js/main.744a9d1c.js.map"
   },
   "entrypoints": [
     "static/css/main.eb01e396.css",
-    "static/js/main.dc622154.js"
+    "static/js/main.744a9d1c.js"
   ]
 }

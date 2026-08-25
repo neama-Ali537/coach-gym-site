@@ -20,6 +20,7 @@ background-color: var(--mainColor);
 .logo {
   width: 40px;
 }
+
 .line {
   font-size: 22px;
   color: #ff6600;
@@ -67,10 +68,7 @@ background-color: var(--mainColor);
   animation: zoom-in 5s ease-in-out infinite alternate;
 }
 
-.meal-card {
-  width: 150px;
-  background-color: var(--mainColor);
-}
+
 .meal,
 .user {
   font-size: 30px;

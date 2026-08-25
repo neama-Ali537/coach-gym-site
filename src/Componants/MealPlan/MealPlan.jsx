@@ -1,9 +1,6 @@
-
-import React, {  useState } from "react";
+import React, { useState } from "react";
 
 export default function MealPlan() {
-
-
   let [breakfast, setBreakFast] = useState("");
   let [dinner, setDinner] = useState("");
   let [lunch, setLunch] = useState("");
@@ -41,8 +38,7 @@ export default function MealPlan() {
 
   return (
     <>
- 
-        <div className="container">
+      <div className="container">
         <h2 className="text-center my-3">📋 إنشاء نظام غذائي</h2>
         <div className="row">
           <div className="col-md-4">
@@ -81,15 +77,13 @@ export default function MealPlan() {
             {" "}
             📄 تحميل كـ TXT
           </button>
-         
+
           <button className="btn btn-success mx-2" onClick={sentViaWhatsApp}>
             {" "}
             📩 إرسال عبر واتساب
           </button>
         </div>
       </div>
-  
-    
     </>
   );
 }
